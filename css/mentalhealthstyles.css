@@ -1,0 +1,136 @@
+.background-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -3; /* Ensure the image stays behind other content */
+}
+.header {
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h2{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h4{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h5{
+    position: absolute;
+    left: -500px;
+    bottom: 220px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.p {
+    text-align: right;
+}
+.footer {
+    position: absolute;
+    bottom: 280px;
+    left: 570px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.health {
+    position: absolute;
+    top: 20px; /* Adjust the distance from the top */
+    right: 20px; /* Adjust the distance from the right */
+    background-color: burlywood; /* Background color of the paragraph */
+    padding: 10px; /* Padding around the paragraph content */
+    border: -1px solid #ccc; /* Border around the paragraph */
+    border-radius: 0px; /* Rounded corners for the border */
+    max-width: 300px;  
+    margin-bottom: 20px; /* Add margin between list items */
+    text-align: left;
+}
+.corner-paragraph {
+    position: absolute;
+    top: 20px; /* Adjust the distance from the top */
+    left: 20px; /* Adjust the distance from the right */
+    background-color: burlywood; /* Background color of the paragraph */
+    padding: 1px; /* Padding around the paragraph content */
+    border: -1px solid #ccc; /* Border around the paragraph */
+    border-radius: 0px; /* Rounded corners for the border */
+    max-width: 400px;
+    min-height: 200px;
+}
+.Picture{
+    text-align: center;
+    width: 100%;
+}
+.common{
+    position: absolute;
+    bottom: 20px;
+    right: 50px
+
+}
+.websites {
+    list-style-type: disc;
+    position: absolute;
+    padding-left: 30px; /* Adjust the left padding to move the content to the left */
+    background-color: burlywood; /* Background color of the paragraph */
+    padding: 1px; /* Padding around the paragraph content */
+    border: -1px solid #ccc; /* Border around the paragraph */
+    border-radius: 0px; /* Rounded corners for the border */
+    max-width: 300px;
+}
+
+.websites ul {
+    
+    padding-left: 0; /* Remove default left padding */
+}
+
+.websites li {
+    margin-bottom: 10px; /* Add margin between list items */
+    text-align: left;
+}
+
+.websites li a {
+    padding: 5px; /* Add padding to the links for better spacing */
+    color: black; /* Set link color */
+}
+
+.websites li a:hover {
+    position: absolute;
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+.resume{
+    position: absolute;
+    bottom: 550px; /* Adjust the distance from the top */
+    left: 100px; /* Adjust the distance from the right */
+    background-color: burlywood; /* Background color of the paragraph */
+    padding: 10px; /* Padding around the paragraph content */
+    border: -1px solid #ccc; /* Border around the paragraph */
+    border-radius: 0px; /* Rounded corners for the border */
+    max-width: 300px;  
+    color: black;
+}
+.tableauPlaceholder{
+    position: absolute;
+    bottom: -200px; /* Adjust the distance from the top */
+    left: 10px; /* Adjust the distance from the right */
+    background-color: black; /* Background color of the paragraph */
+    padding: 10px; /* Padding around the paragraph content */
+    border: -1px solid black; /* Border around the paragraph */
+    border-radius: 0px; /* Rounded corners for the border */
+    max-width: 390px;  
+    color: black;  
+}
